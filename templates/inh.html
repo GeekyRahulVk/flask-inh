@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %} Testing Inheritance {% endblock %}
+
+{% block bgimage %}'{{ url_for('static', filename='img/home-bg.jpg') }}'{% endblock %}
+
+{% block pageheader %}
+  {{ super() }}
+<p> posted by tester</p>
+ {% endblock %} 

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+   { "src": "!*.py", "use": "@now/static" } , 
+   { "src": "*.py", "use": "@liudonghua123/now-flask" } 
+       
+
+  ],
+  "routes": [
+    { "src": "/!*.jpg", "dest": "/index.py"},
+    { "src": "/post", "dest": "/index.py"},
+    { "src": "/inh", "dest": "/index.py"}
+  ]
+}
