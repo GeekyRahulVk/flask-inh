@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
    { "src": "!*.py", "use": "@now/static" } , 
-   { "src": "*.py", "use": "@liudonghua123/now-flask" } 
+   { "src": "*.py", "use": "@now/python" } 
        
 
   ],
